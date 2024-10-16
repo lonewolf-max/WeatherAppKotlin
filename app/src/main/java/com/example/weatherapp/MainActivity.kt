@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvWindSpeed: TextView
     private lateinit var btnFetchWeather: Button
 
-    private val apiKey = "916d43f89e8527ba6e31039097a6774b"  // Replace with your actual API key
+    private val apiKey = "YOUR_API_KEY"  // Replace with your actual API key
     private val client by lazy { OkHttpClient() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
